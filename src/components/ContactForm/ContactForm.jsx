@@ -17,7 +17,7 @@ const ContactForm = ({ addContact }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}> Nombre
+    <form onSubmit={handleSubmit}> Nombre: 
       <input
         type="text"
         name="name"
@@ -27,7 +27,7 @@ const ContactForm = ({ addContact }) => {
         title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
         required
       />
-      Numero
+      Numero: 
       <input
         type="tel"
         name="number"
